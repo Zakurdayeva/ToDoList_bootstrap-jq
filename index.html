@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+
+    <link href="bootstrap-3.3.7/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="js/jquery-ui-1.12.1/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+  <body>
+
+    <header>
+      <h1 class="head"> TO DO LIST </h1>
+    </header>
+
+    <div id="addTask">
+      <form role="form" class="form-inline form-group has-success">
+         <input id="puttask" class="form-control" type="text"  required placeholder="Enter a new task">
+         <input id="datepicker" class="form-control" type="text" required placeholder="Specify date">
+         <input id="setprior" class="form-control" type="number" min="1" max="5" required placeholder="Set priority">
+         <input id="add" class="btn btn-success btn btn-small" type="submit" value="Add">
+      </form>
+    </div>
+
+    <table class="table table-bordered table-hover">
+      <thead>
+        <tr>
+          <th class="col-xs-1 prior"> Priority </th>
+          <th class="col-xs-7 tasks"> Tasks </th>
+          <th class="col-xs-1 ddate"> Due date </th>
+          <th class="col-xs-1 done"> Done </th>
+          <th class="col-xs-1 edit"> Edit </th>
+          <th class="col-xs-1 del"> X </th>
+        </tr>
+      </thead>
+
+      <tbody>
+
+      </tbody>
+
+      <template>
+        <tr>
+          <td id="piority"> 1</td>
+          <td id="task"> 2</td>
+          <td id="ddate"> 3</td>
+          <td> <input type="checkbox" id="done"></td>
+          <td> <button class="btn btn-warning"> e </button> </td>
+          <td> <button class="btn btn-danger"> x </button> </td>
+        </tr>
+      </template>
+      
+    </table>
+
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/jquery-ui-1.12.1/jquery-ui.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

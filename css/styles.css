@@ -1,0 +1,75 @@
+body {
+  margin: 5px;
+}
+
+header {
+  height: 80px;
+  background-color: #4682B4;
+  border-radius: 10px;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+.head {
+  margin: 0;
+  font-size: 50px;
+  height: 60px;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+#addTask {
+  padding: 20px 0 10px 0;
+}
+
+#puttask {
+  width: 70%;
+  height: 30px;
+}
+
+#datepicker {
+  width: 10%;
+  height: 30px;
+}
+
+#setprior {
+  width: 8%;
+  height: 30px;
+}
+
+#add {
+  width: 8%;
+}
+
+table {
+  table-layout: fixed;
+}
+
+th {
+  background-color: grey;
+  text-align: center;
+  vertical-align: middle !important;
+  word-wrap: break-word;
+}
+
+td {
+  text-align: center;
+  vertical-align: middle !important;
+}
+
+#task {
+  text-align: left;
+}
+
+#done {
+  width: 30px;
+  height: 30px;
+}
+
+.del, .prior, .edit {
+  width: 3%;
+}
+
+.done {
+    width: 4%;
+}
